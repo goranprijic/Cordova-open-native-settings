@@ -110,7 +110,7 @@
 		result = [self do_open:[prefix stringByAppendingString:@"root=NOTES"]];
 	}
 	else if ([key isEqualToString:@"notification_id"]) {
-		result = [self do_open:[prefix stringByAppendingString:@"root=NOTIFICATIONS_ID"]];
+		result = [self do_open:[prefix stringByAppendingString:@"root=NOTIFICATIONS_ID&path=co.cigarlab.cigarscanner"]];
 	}
 	else if ([key isEqualToString:@"passbook"]) {
 		result = [self do_open:[prefix stringByAppendingString:@"root=PASSBOOK"]];
